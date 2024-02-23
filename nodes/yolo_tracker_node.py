@@ -6,13 +6,10 @@ from PIL import Image
 import supervision as sv
 from ultralytics import YOLO
 
-folder_paths.folder_names_and_paths["yolov8"] = ([os.path.join(
-    folder_paths.models_dir, "yolov8")], folder_paths.supported_pt_extensions)
-
 
 def get_model_dir():
-    root_path = folder_paths.folder_names_and_paths['custom_nodes'][0][0]
-    path = os.path.join(root_path, 'ComfyUI-TrackingNodes', 'models')
+    root_path = folder_paths.models_dir
+    path = os.path.join(root_path, 'yolov8')
     return path
 
 
