@@ -6,7 +6,7 @@ ComfyUI nodes to track objects in videos using YOLOv8
 - [Installation](#installation)
   - [How to Install](#how-to-install)
   - [How to Configure Models](#how-to-configure-models)
-- [Examples](#examples)
+- [Accompanying Node Repos](#accompanying-node-repos)
 
 ## Installation
 
