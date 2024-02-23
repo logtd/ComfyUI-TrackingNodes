@@ -1,0 +1,5 @@
+numpy
+supervision
+ultralytics
+timm
+scikit-image

@@ -1,0 +1,5 @@
+.git
+.vscode
+**/__pycache__
+**/*.ckpt
+.DS_Store
